@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block titulo %} <title> Mi banco Emmanuel </title>{% endblock titulo %}
+
+{% block cuerpo %}
+
+    <div class="d-flex flex-column justify-content-center align-items-center">
+
+        <h1 class="mt-4 mb-4">Mi Banco Emmanuel</h1>
+
+        <img class="w-59" src="{% static 'img/banco.jpg' %}" alt="nava" width="400" height="250">
+
+    </div>
+
+{% endblock cuerpo %}
